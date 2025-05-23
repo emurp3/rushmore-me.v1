@@ -1,13 +1,11 @@
-// src/App.js
+// src/index.js
 import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
 
-function App() {
-  return (
-    <div style={{ textAlign: 'center', marginTop: '50px' }}>
-      <h1>Welcome to Rushmore Me</h1>
-      <p>We are LIVE on Vercel 🎉</p>
-    </div>
-  );
-}
-
-export default App;
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
