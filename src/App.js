@@ -2,11 +2,12 @@ import React from 'react';
 
 function App() {
   return (
-    <div style={{ textAlign: 'center', paddingTop: '100px' }}>
+    <div style={{ textAlign: 'center', marginTop: '50px' }}>
       <h1>Welcome to Rushmore Me</h1>
-      <p>This is a basic Vercel deployment!</p>
+      <p>We are LIVE on Vercel 🎉</p>
     </div>
   );
 }
 
 export default App;
+
